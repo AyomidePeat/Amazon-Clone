@@ -57,7 +57,7 @@ class _CartScreenState extends State<CartScreen> {
                         } else {
                           return CustomMainButton(
                               child: Text(
-                                  "Procced to buy (${snapshot.data!.docs.length}) items",
+                                  "Proceed to buy (${snapshot.data!.docs.length}) items",
                                   style: TextStyle(
                                     color: Colors.black,
                                   )),
